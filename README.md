@@ -77,6 +77,7 @@
 		- import clipboard from 'clipboard';
 		- Vue.prototype.$clipboard = clipboard;
 		- const clipboard = new this.$clipboard('按钮DOM', { });
+
 ### 打包发布
  01. 发布网页版
 	- 配置文件： webpack.publish.config.js
