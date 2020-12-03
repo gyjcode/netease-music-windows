@@ -1,0 +1,4 @@
+{
+    "plugins":["@babel/transform-runtime", "@babel/plugin-transform-strict-mode"],
+    "presets":["@babel/preset-env"]
+}
