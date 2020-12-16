@@ -50,8 +50,10 @@
 							<!-- 歌曲名称 -->
 							<el-table-column
 							class-name="name"
-							prop="name"
 							width="300">
+								<template slot-scope="scope">
+									<span v-html="scope.row.name"></span>
+								</template>
 							</el-table-column>
 							<!-- 歌手名称 -->
 							<el-table-column

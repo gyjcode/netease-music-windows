@@ -7,7 +7,7 @@
  03. 运行 npm run dev 后访问 127.0.0.1:1001 即可
 
 ### 基础项目环境配置
- 01. 初始化项目：npm init -y
+ 01. 初始化项目：npm init -y  (注意项目名合法)
  02. 创建项目入口 js 文件及其他必要目录
  03. webpack 基本配置
 	- webpak 打包工具安装：npm i webpack -D
